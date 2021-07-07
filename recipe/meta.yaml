@@ -1,5 +1,5 @@
 {% set name = "mypy_boto3_dynamodb" %}
-{% set version = "1.17.106" %}
+{% set version = "1.17.107" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-dynamodb-{{ version }}.tar.gz
-  sha256: b068078c11d3c89ddea1a400c5066b0e572cc5aded6ca54a59edd947cd63935e
+  sha256: c84d04b1e58c6494469269f9b32300e4acadc0cfd5e466172cfe975988b47545
 
 build:
   number: 0
