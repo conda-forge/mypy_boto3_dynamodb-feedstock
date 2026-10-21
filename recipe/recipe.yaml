@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy_boto3_dynamodb
-  version: "1.43.115"
+  version: "1.43.116"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: f7cca227ed642870f5c31cb5535cdef9cccb8e5857f1622fa2a8c3571e6a4c19
+  sha256: 43b158cdb563004bb0b6e63af790557755bb53c96e9eabbfdb97c2b0e5bcadca
 
 build:
   number: 0
